@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "initialized": false,
+  "products": {},
+  "pending": [],
+  "sent": [],
+  "history": [],
+  "last_success": null,
+  "failures": 1,
+  "failure_notified": false,
+  "scan_sequence": 0
+}

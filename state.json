@@ -2,15 +2,10 @@
   "version": 1,
   "initialized": false,
   "products": {},
-  "pending": [
-    {
-      "id": "failure:2026-11-26T09:13:49+05:30",
-      "type": "failure",
-      "time": "2026-11-26T09:13:49+05:30",
-      "failures": 3
-    }
+  "pending": [],
+  "sent": [
+    "failure:2026-11-26T09:13:49+05:30"
   ],
-  "sent": [],
   "history": [],
   "last_success": null,
   "failures": 3,

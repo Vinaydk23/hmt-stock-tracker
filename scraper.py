@@ -40,7 +40,7 @@ def parse_catalogue(html):
             raise ScrapeError('Product card missing a unique numeric ID or purchase link.')
         key = ids.pop()
         url = urljoin(BASE, link['href'])
-        if urlsplit(url).netloc != urlsplit(BASE).netloc or not urlsplit(url).path.startswith('/product_'):
+        if urlsplit(url).netloc != urlsplit(BASE).netloc or not urlsplit(url).path.startswith(('/product_', '/product-')):
             raise ScrapeError(f'Unexpected product link: {url}')
         product = Product(id=key, name=link.get_text(' ', strip=True), url=url)
         if key in products and products[key].name != product.name:

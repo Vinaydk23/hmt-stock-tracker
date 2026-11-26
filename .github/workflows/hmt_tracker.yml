@@ -75,3 +75,14 @@ jobs:
           if [ -f stock-report.md ]; then
             cat stock-report.md >> "$GITHUB_STEP_SUMMARY"
           fi
+      - name: Send hourly Telegram summary
+        if: success() && (inputs.mode || 'scan') == 'scan'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        shell: bash
+        run: |
+          IST_MIN="$(TZ=Asia/Kolkata date +%M)"
+          if (( 10#$IST_MIN < 5 )) && [ -f stock-report.md ]; then
+            python -c "import os, urllib.request, urllib.parse; msg = open('stock-report.md').read()[:4000]; urllib.request.urlopen('https://api.telegram.org/bot' + os.environ['TELEGRAM_BOT_TOKEN'] + '/sendMessage', urllib.parse.urlencode({'chat_id': os.environ['TELEGRAM_CHAT_ID'], 'text': msg}).encode())"
+          fi

@@ -1587,54 +1587,7 @@
       "removed": false
     }
   },
-  "pending": [
-    {
-      "id": "1253:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-27T17:52:32+05:30",
-      "priority": "highest",
-      "automatic": false,
-      "product": {
-        "id": "1253",
-        "name": "HMT Men's Gandaberunda JGGL 01 ( Black)",
-        "url": "https://www.hmtwatches.in/product-1253",
-        "price": "2599",
-        "status": "unknown",
-        "sku": "JGGL 01GB",
-        "movement": "Quartz",
-        "first_seen": "2026-11-27T17:52:32+05:30",
-        "last_seen": "2026-11-27T17:52:32+05:30",
-        "last_checked": "2026-11-27T17:52:32+05:30",
-        "confirmed": null,
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    },
-    {
-      "id": "1252:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-27T17:52:32+05:30",
-      "priority": "highest",
-      "automatic": false,
-      "product": {
-        "id": "1252",
-        "name": "HMT Men's Gandaberunda JGSL 01 (LBS 1)",
-        "url": "https://www.hmtwatches.in/product-1252-hmt-mens-gandaberunda-jgsl-01-lbs-1",
-        "price": "2499",
-        "status": "unknown",
-        "sku": "JGSL 01 GB",
-        "movement": "Quartz",
-        "first_seen": "2026-11-27T17:52:32+05:30",
-        "last_seen": "2026-11-27T17:52:32+05:30",
-        "last_checked": "2026-11-27T17:52:32+05:30",
-        "confirmed": null,
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    }
-  ],
+  "pending": [],
   "sent": [
     "failure:2026-11-26T09:13:49+05:30",
     "1251:0:new launch",
@@ -1653,7 +1606,9 @@
     "194:0:new launch",
     "134:0:new launch",
     "523:0:new launch",
-    "522:0:new launch"
+    "522:0:new launch",
+    "1253:0:new launch",
+    "1252:0:new launch"
   ],
   "history": [
     {

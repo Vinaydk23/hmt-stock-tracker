@@ -1603,31 +1603,7 @@
       "removed": false
     }
   },
-  "pending": [
-    {
-      "id": "1255:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-28T15:52:28+05:30",
-      "priority": "standard",
-      "automatic": false,
-      "product": {
-        "id": "1255",
-        "name": "HMT Inox IXGS 08 White",
-        "url": "https://www.hmtwatches.in/product-1255-hmt-inox-ixgs-08-white",
-        "price": "1599",
-        "status": "unknown",
-        "sku": "IXGS 08",
-        "movement": "Quartz",
-        "first_seen": "2026-11-28T15:52:28+05:30",
-        "last_seen": "2026-11-28T15:52:28+05:30",
-        "last_checked": "2026-11-28T15:52:28+05:30",
-        "confirmed": null,
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    }
-  ],
+  "pending": [],
   "sent": [
     "failure:2026-11-26T09:13:49+05:30",
     "1251:0:new launch",
@@ -1648,7 +1624,8 @@
     "523:0:new launch",
     "522:0:new launch",
     "1253:0:new launch",
-    "1252:0:new launch"
+    "1252:0:new launch",
+    "1255:0:new launch"
   ],
   "history": [
     {

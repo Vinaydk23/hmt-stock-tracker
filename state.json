@@ -1699,100 +1699,7 @@
       "removed": false
     }
   },
-  "pending": [
-    {
-      "id": "1161:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-28T16:12:33+05:30",
-      "priority": "highest",
-      "automatic": false,
-      "product": {
-        "id": "1161",
-        "name": "HMT Sangam MGSS 05A White",
-        "url": "https://www.hmtwatches.in/product-1161-hmt-sangam-mgss-05a-white",
-        "price": "3299",
-        "status": "unknown",
-        "sku": "MGSS 05",
-        "movement": "Quartz",
-        "first_seen": "2026-11-28T16:12:33+05:30",
-        "last_seen": "2026-11-28T16:12:33+05:30",
-        "last_checked": "2026-11-28T16:12:33+05:30",
-        "confirmed": null,
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    },
-    {
-      "id": "1044:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-28T16:12:33+05:30",
-      "priority": "highest",
-      "automatic": false,
-      "product": {
-        "id": "1044",
-        "name": "HMT Sangam MGSS 05 Yellow",
-        "url": "https://www.hmtwatches.in/product-1044-hmt-sangam-mgss-05-yellow",
-        "price": "3299",
-        "status": "out_of_stock",
-        "sku": "MGSS 05",
-        "movement": "Quartz",
-        "first_seen": "2026-11-28T16:12:33+05:30",
-        "last_seen": "2026-11-28T16:12:33+05:30",
-        "last_checked": "2026-11-28T16:12:33+05:30",
-        "confirmed": "out_of_stock",
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    },
-    {
-      "id": "687:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-28T16:12:33+05:30",
-      "priority": "additional",
-      "automatic": false,
-      "product": {
-        "id": "687",
-        "name": "HMT Tareeq Quartz Sunray Blue",
-        "url": "https://www.hmtwatches.in/product-687-hmt-tareeq-quartz-sunray-blue",
-        "price": "2499",
-        "status": "out_of_stock",
-        "sku": "Tareeq Qtz",
-        "movement": "Quartz",
-        "first_seen": "2026-11-28T16:12:33+05:30",
-        "last_seen": "2026-11-28T16:12:33+05:30",
-        "last_checked": "2026-11-28T16:12:33+05:30",
-        "confirmed": "out_of_stock",
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    },
-    {
-      "id": "686:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-28T16:12:33+05:30",
-      "priority": "additional",
-      "automatic": false,
-      "product": {
-        "id": "686",
-        "name": "HMT Tareeq Quartz Turquoise Blue",
-        "url": "https://www.hmtwatches.in/product-686-hmt-tareeq-quartz-turquoise-blue",
-        "price": "2499",
-        "status": "out_of_stock",
-        "sku": "Tareeq Qtz",
-        "movement": "Quartz",
-        "first_seen": "2026-11-28T16:12:33+05:30",
-        "last_seen": "2026-11-28T16:12:33+05:30",
-        "last_checked": "2026-11-28T16:12:33+05:30",
-        "confirmed": "out_of_stock",
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    }
-  ],
+  "pending": [],
   "sent": [
     "failure:2026-11-26T09:13:49+05:30",
     "1251:0:new launch",
@@ -1816,7 +1723,11 @@
     "1252:0:new launch",
     "1255:0:new launch",
     "1256:0:new launch",
-    "1257:0:new launch"
+    "1257:0:new launch",
+    "1161:0:new launch",
+    "1044:0:new launch",
+    "687:0:new launch",
+    "686:0:new launch"
   ],
   "history": [
     {

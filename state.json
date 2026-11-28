@@ -1635,31 +1635,7 @@
       "removed": false
     }
   },
-  "pending": [
-    {
-      "id": "1257:0:new launch",
-      "type": "new launch",
-      "time": "2026-11-28T16:07:20+05:30",
-      "priority": "highest",
-      "automatic": true,
-      "product": {
-        "id": "1257",
-        "name": "HMT Kedar Premium GP Silver",
-        "url": "https://www.hmtwatches.in/product-1257",
-        "price": "9299",
-        "status": "out_of_stock",
-        "sku": "Kedar Premium GP",
-        "movement": "Automatic",
-        "first_seen": "2026-11-28T16:07:20+05:30",
-        "last_seen": "2026-11-28T16:07:20+05:30",
-        "last_checked": "2026-11-28T16:07:20+05:30",
-        "confirmed": "out_of_stock",
-        "transition": 0,
-        "missing_scans": 0,
-        "removed": false
-      }
-    }
-  ],
+  "pending": [],
   "sent": [
     "failure:2026-11-26T09:13:49+05:30",
     "1251:0:new launch",
@@ -1682,7 +1658,8 @@
     "1253:0:new launch",
     "1252:0:new launch",
     "1255:0:new launch",
-    "1256:0:new launch"
+    "1256:0:new launch",
+    "1257:0:new launch"
   ],
   "history": [
     {
